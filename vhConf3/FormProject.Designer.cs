@@ -144,7 +144,7 @@
 			// 
 			// menuItemRemove
 			// 
-			this.menuItemRemove.Image = global::vhConf3.Properties.Resources.delete;
+			this.menuItemRemove.Image = global::ApacheVhostsManager.Properties.Resources.delete;
 			this.menuItemRemove.Name = "menuItemRemove";
 			this.menuItemRemove.Size = new System.Drawing.Size(125, 22);
 			this.menuItemRemove.Text = "Entfernen";
@@ -173,7 +173,7 @@
 			// 
 			this.btnPublicPath.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.btnPublicPath.AutoSize = true;
-			this.btnPublicPath.Image = global::vhConf3.Properties.Resources.folder;
+			this.btnPublicPath.Image = global::ApacheVhostsManager.Properties.Resources.folder;
 			this.btnPublicPath.Location = new System.Drawing.Point(304, 123);
 			this.btnPublicPath.Name = "btnPublicPath";
 			this.btnPublicPath.Size = new System.Drawing.Size(29, 22);
@@ -185,7 +185,7 @@
 			// 
 			this.btnProjectPath.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.btnProjectPath.AutoSize = true;
-			this.btnProjectPath.Image = global::vhConf3.Properties.Resources.folder;
+			this.btnProjectPath.Image = global::ApacheVhostsManager.Properties.Resources.folder;
 			this.btnProjectPath.Location = new System.Drawing.Point(304, 74);
 			this.btnProjectPath.Name = "btnProjectPath";
 			this.btnProjectPath.Size = new System.Drawing.Size(29, 23);
@@ -199,7 +199,7 @@
 			this.btnSave.AutoSize = true;
 			this.btnSave.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
 			this.btnSave.DialogResult = System.Windows.Forms.DialogResult.OK;
-			this.btnSave.Image = global::vhConf3.Properties.Resources.accept;
+			this.btnSave.Image = global::ApacheVhostsManager.Properties.Resources.accept;
 			this.btnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this.btnSave.Location = new System.Drawing.Point(400, 327);
 			this.btnSave.Name = "btnSave";
@@ -216,7 +216,7 @@
 			this.btnCancel.AutoSize = true;
 			this.btnCancel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
 			this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-			this.btnCancel.Image = global::vhConf3.Properties.Resources.delete;
+			this.btnCancel.Image = global::ApacheVhostsManager.Properties.Resources.delete;
 			this.btnCancel.Location = new System.Drawing.Point(487, 327);
 			this.btnCancel.Name = "btnCancel";
 			this.btnCancel.Size = new System.Drawing.Size(85, 23);
@@ -230,7 +230,7 @@
 			// 
 			this.btnAddDomain.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
 			this.btnAddDomain.AutoSize = true;
-			this.btnAddDomain.Image = global::vhConf3.Properties.Resources.add;
+			this.btnAddDomain.Image = global::ApacheVhostsManager.Properties.Resources.add;
 			this.btnAddDomain.Location = new System.Drawing.Point(304, 327);
 			this.btnAddDomain.Name = "btnAddDomain";
 			this.btnAddDomain.Size = new System.Drawing.Size(29, 23);

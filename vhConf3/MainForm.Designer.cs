@@ -62,7 +62,7 @@
 			// 
 			// entfernenToolStripMenuItem
 			// 
-			this.entfernenToolStripMenuItem.Image = global::vhConf3.Properties.Resources.delete;
+			this.entfernenToolStripMenuItem.Image = global::ApacheVhostsManager.Properties.Resources.delete;
 			this.entfernenToolStripMenuItem.Name = "entfernenToolStripMenuItem";
 			this.entfernenToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
 			this.entfernenToolStripMenuItem.Text = "Entfernen";

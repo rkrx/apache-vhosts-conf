@@ -128,7 +128,7 @@
 			// 
 			this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.button1.AutoSize = true;
-			this.button1.Image = global::vhConf3.Properties.Resources.folder;
+			this.button1.Image = global::ApacheVhostsManager.Properties.Resources.folder;
 			this.button1.Location = new System.Drawing.Point(432, 25);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(31, 22);
@@ -140,7 +140,7 @@
 			// 
 			this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.button2.AutoSize = true;
-			this.button2.Image = global::vhConf3.Properties.Resources.folder;
+			this.button2.Image = global::ApacheVhostsManager.Properties.Resources.folder;
 			this.button2.Location = new System.Drawing.Point(432, 74);
 			this.button2.Name = "button2";
 			this.button2.Size = new System.Drawing.Size(31, 22);
@@ -152,7 +152,7 @@
 			// 
 			this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.button3.AutoSize = true;
-			this.button3.Image = global::vhConf3.Properties.Resources.folder;
+			this.button3.Image = global::ApacheVhostsManager.Properties.Resources.folder;
 			this.button3.Location = new System.Drawing.Point(432, 123);
 			this.button3.Name = "button3";
 			this.button3.Size = new System.Drawing.Size(31, 22);
@@ -164,7 +164,7 @@
 			// 
 			this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.button4.AutoSize = true;
-			this.button4.Image = global::vhConf3.Properties.Resources.folder;
+			this.button4.Image = global::ApacheVhostsManager.Properties.Resources.folder;
 			this.button4.Location = new System.Drawing.Point(432, 172);
 			this.button4.Name = "button4";
 			this.button4.Size = new System.Drawing.Size(31, 22);
@@ -186,7 +186,7 @@
 			this.btnCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
 			this.btnCancel.AutoSize = true;
 			this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-			this.btnCancel.Image = global::vhConf3.Properties.Resources.delete;
+			this.btnCancel.Image = global::ApacheVhostsManager.Properties.Resources.delete;
 			this.btnCancel.Location = new System.Drawing.Point(378, 397);
 			this.btnCancel.Name = "btnCancel";
 			this.btnCancel.Size = new System.Drawing.Size(85, 23);
@@ -200,7 +200,7 @@
 			// 
 			this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
 			this.btnSave.AutoSize = true;
-			this.btnSave.Image = global::vhConf3.Properties.Resources.accept;
+			this.btnSave.Image = global::ApacheVhostsManager.Properties.Resources.accept;
 			this.btnSave.Location = new System.Drawing.Point(291, 397);
 			this.btnSave.Name = "btnSave";
 			this.btnSave.Size = new System.Drawing.Size(81, 23);
