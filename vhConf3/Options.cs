@@ -42,6 +42,7 @@ namespace vhConf3 {
 
 		private void addPath(XmlNode root, String name, String value) {
 			XmlElement node = doc.CreateElement("path");
+
 			node.SetAttribute("name", name);
 			node.AppendChild(doc.CreateTextNode(value));
 			root.AppendChild(node);
