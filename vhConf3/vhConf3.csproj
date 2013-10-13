@@ -158,6 +158,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="apache-vhosts-conf.ico" />
+    <None Include="Resources\page_go.png" />
+    <None Include="Resources\cog.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

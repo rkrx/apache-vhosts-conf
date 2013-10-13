@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Windows.Forms;
 using System.Xml;
 using System.Xml.XPath;
@@ -13,9 +14,8 @@ namespace vhConf3 {
 
         public FormMain() {
             InitializeComponent();
-			options.load(optionsFilename);
-			projects.load(projectsFilename);
-			reload();
+
+            init();
 		}
 
 		private void btOptions_Click(object sender, EventArgs e) {
@@ -26,7 +26,7 @@ namespace vhConf3 {
 
 		private void btNewProject_Click(object sender, EventArgs e) {
 			var project = new Project();
-			project.title = "Neues Projekt";
+			project.title = "New Project";
 			project.baseDir = options.htdocsPath;
 			project.publicDir = options.htdocsPath;
 			var form = new FormProject(project);
@@ -63,7 +63,7 @@ namespace vhConf3 {
 		private void btApply_Click(object sender, EventArgs e) {
 			var publisher = new Publisher(projects, options);
 			publisher.publish();
-			MessageBox.Show("Konfiguration wurde geschrieben und Apache neugestartet.");
+            MessageBox.Show("Configuration successfully written and restarted apache.");
 		}
 
 		private void entfernenToolStripMenuItem_Click(object sender, EventArgs e) {
@@ -76,5 +76,19 @@ namespace vhConf3 {
 		private void menuProjects_Opened(object sender, EventArgs e) {
 			entfernenToolStripMenuItem.Enabled = lbProjects.SelectedIndex > -1;
 		}
+
+        private void init() {
+            initDataDirectory();
+            options.load(optionsFilename);
+            projects.load(projectsFilename);
+            reload();
+        }
+
+        private void initDataDirectory() {
+            if (!Directory.Exists(".\\data")) {
+                MessageBox.Show("The directory .\\data is missing.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Environment.Exit(1);
+            }
+        }
 	}
 }
