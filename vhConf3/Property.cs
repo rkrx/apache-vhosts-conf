@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace vhConf3 {
+namespace VhostsManager {
 	public class Property {
 		public String name = "";
 		public String value = "";

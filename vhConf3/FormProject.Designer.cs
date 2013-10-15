@@ -1,4 +1,4 @@
-﻿namespace vhConf3 {
+﻿namespace VhostsManager {
 	partial class FormProject {
 		/// <summary>
 		/// Required designer variable.

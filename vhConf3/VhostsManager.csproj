@@ -72,6 +72,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ProjectReader.cs" />
+    <Compile Include="ProjectWriter.cs" />
     <Compile Include="Property.cs" />
     <Compile Include="FileOpenDialog.cs" />
     <Compile Include="DirectoryOpenDialog.cs" />

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace vhConf3 {
+namespace VhostsManager {
     public class Project {
         public string title;
         public string baseDir;

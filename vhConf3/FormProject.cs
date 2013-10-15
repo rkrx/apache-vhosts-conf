@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace vhConf3 {
+namespace VhostsManager {
 	public partial class FormProject : Form {
 		private Project project;
 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Windows.Forms;
 
-namespace vhConf3 {
+namespace VhostsManager {
 	class DirectoryOpenDialog {
 		private FolderBrowserDialog dialog = new FolderBrowserDialog();
 

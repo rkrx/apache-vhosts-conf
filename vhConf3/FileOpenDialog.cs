@@ -4,7 +4,7 @@ using System.IO;
 using System.Text;
 using System.Windows.Forms;
 
-namespace vhConf3 {
+namespace VhostsManager {
 	class FileOpenDialog {
 		private OpenFileDialog dialog = new OpenFileDialog();
 

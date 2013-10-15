@@ -5,7 +5,7 @@ using System.Xml;
 using System.Xml.XPath;
 using System.Xml.Xsl;
 
-namespace vhConf3 {
+namespace VhostsManager {
     public partial class FormMain : Form {
 		private Projects projects = new Projects();
 		private Options options = new Options();

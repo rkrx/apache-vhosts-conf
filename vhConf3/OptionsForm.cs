@@ -7,7 +7,7 @@ using System.IO;
 using System.Text;
 using System.Windows.Forms;
 
-namespace vhConf3 {
+namespace VhostsManager {
     public partial class FormOptions : Form {
 		private Options options = null;
 
@@ -18,7 +18,8 @@ namespace vhConf3 {
 			tbVhosts.Text = options.vhostsPath;
 			tbWwwRoot.Text = options.htdocsPath;
 			tbHosts.Text = options.hostsPath;
-			tbApacheBin.Text = options.apacheBinPath;
+			tbExecBin.Text = options.executeBinPath;
+			tbExecParams.Text = options.executeBinParams;
 			tbExtra.Text = options.extraHostsEntries;
         }
 
@@ -26,7 +27,8 @@ namespace vhConf3 {
 			options.vhostsPath = tbVhosts.Text;
 			options.htdocsPath = tbWwwRoot.Text;
 			options.hostsPath = tbHosts.Text;
-			options.apacheBinPath = tbApacheBin.Text;
+			options.executeBinPath = tbExecBin.Text;
+			options.executeBinParams = tbExecParams.Text;
 			options.extraHostsEntries = tbExtra.Text;
 
 			btnCancel_Click(sender, e);
@@ -60,8 +62,8 @@ namespace vhConf3 {
 
 		private void button4_Click(object sender, EventArgs e) {
 			FileOpenDialog dialog = new FileOpenDialog();
-			if (dialog.trySelectFile(tbApacheBin.Text)) {
-				tbApacheBin.Text = dialog.getFilename();
+			if (dialog.trySelectFile(tbExecBin.Text)) {
+				tbExecBin.Text = dialog.getFilename();
 			}
 		}
 	}

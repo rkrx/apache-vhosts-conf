@@ -2,6 +2,8 @@
   <path name="vhosts">C:\xampp\apache\conf\extra\httpd-vhosts.conf</path>
   <path name="htdocs">C:\xampp\htdocs</path>
   <path name="hosts">%SystemRoot%\System32\drivers\etc\hosts</path>
-  <path name="apache-bin">C:\xampp\apache\bin\httpd.exe</path>
-  <hosts></hosts>
+  <path name="execute">C:\xampp\apache\bin\httpd.exe</path>
+  <path name="execute-params">-k restart</path>
+  <hosts>
+  </hosts>
 </options>

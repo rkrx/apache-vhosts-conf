@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace vhConf3
+namespace VhostsManager
 {
     static class Program
     {

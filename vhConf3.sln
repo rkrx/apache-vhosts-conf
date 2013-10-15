@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 2012 for Windows Desktop
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vhConf3", "vhConf3\vhConf3.csproj", "{D97919F7-7BCC-45E9-B6D8-2F2A42FB62CB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VhostsManager", "vhConf3\VhostsManager.csproj", "{D97919F7-7BCC-45E9-B6D8-2F2A42FB62CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

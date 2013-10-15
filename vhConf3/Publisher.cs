@@ -7,7 +7,7 @@ using System.Xml;
 using System.Xml.XPath;
 using System.Xml.Xsl;
 
-namespace vhConf3 {
+namespace VhostsManager {
 	class Publisher {
 		private Options options;
 		private Projects projects;
@@ -71,8 +71,8 @@ namespace vhConf3 {
 
 		private void restartApache() {
 			var apacheBin = new Process();
-			apacheBin.StartInfo.FileName = options.apacheBinPath;
-			apacheBin.StartInfo.Arguments = "-k restart";
+			apacheBin.StartInfo.FileName = options.executeBinPath;
+			apacheBin.StartInfo.Arguments = options.executeBinParams;
 			apacheBin.StartInfo.UseShellExecute = false;
 			apacheBin.StartInfo.RedirectStandardOutput = true;
 			apacheBin.StartInfo.CreateNoWindow = true;
